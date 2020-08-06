@@ -1,0 +1,21 @@
+#icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+#icons .icon{
+    margin: 10px;
+    width: calc(25% - 20px);
+}
+#icons .icon-image img{
+    width: 100%;
+    display: block;
+}
+
+#icons .icon-text{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
